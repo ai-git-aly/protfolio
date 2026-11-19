@@ -311,10 +311,35 @@ button, input, textarea, select {
   background: var(--gradient);
   color: #062012;
   white-space: nowrap;
+  flex-shrink: 0;
+  min-width: max-content;
   transition: transform var(--transition), box-shadow var(--transition);
 }
 
 .nav-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(46, 158, 107, 0.35);
+}
+
+/* "Let's Talk" inside the mobile dropdown (phones & tablets) */
+.nav-menu-cta {
+  display: none;
+  margin-top: 10px;
+  padding: 13px 20px;
+  border-radius: 999px;
+  background: var(--gradient);
+  color: #062012;
+  font-size: 0.92rem;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  min-height: 46px;
+  max-width: 100%;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.nav-menu-cta:hover,
+.nav-menu-cta:focus-visible {
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(46, 158, 107, 0.35);
 }
@@ -1246,10 +1271,18 @@ button, input, textarea, select {
   }
 }
 
-/* Tablet portrait: drop the extra CTA so the navbar never crowds */
+/* Tablet portrait: show the CTA inside the nav row instead of beside it */
 @media (max-width: 900px) {
   .nav-cta {
     display: none;
+  }
+
+  .nav-menu-cta {
+    display: block;
+    margin-top: 0;
+    padding: 9px 16px;
+    font-size: 0.8rem;
+    min-height: 40px;
   }
 }
 
@@ -1326,6 +1359,14 @@ button, input, textarea, select {
     text-align: center;
     padding: 12px;
     font-size: 0.9rem;
+  }
+
+  .nav-menu-cta {
+    margin-top: 10px;
+    padding: 13px 20px;
+    font-size: 0.92rem;
+    min-height: 46px;
+    width: 100%;
   }
 
   .section {

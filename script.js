@@ -274,6 +274,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   navLinkItems.forEach((link) => link.addEventListener("click", closeMenu));
+  document.querySelector(".nav-menu-cta")?.addEventListener("click", closeMenu);
 
   document.addEventListener("click", (event) => {
     if (
