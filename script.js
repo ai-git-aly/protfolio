@@ -20,10 +20,10 @@ const I18N = {
     kicker_about: "01 / About",
     title_about: 'A little <span class="gradient-text">about me</span>',
     subtitle_about: "Passionate about technology, from the hardware up to intelligent software.",
-    about_p1: "I'm Ismail Ally. I hold a diploma in Informatique de Maintenance, which gave me a solid foundation in both software and hardware.",
+    about_p1: "I'm Ismail Ally. I hold a diploma in Computer Maintenance, which gave me a solid foundation in both software and hardware.",
     about_p2: "I enjoy turning ideas into real products — whether that's a responsive website, an Android app, a Windows application, or an intelligent agent powered by AI. I'm constantly learning and exploring how different programming languages and AI tools can solve everyday problems.",
     text_link: "Let's work together",
-    info_diploma: "Diploma", info_diploma_val: "Informatique de Maintenance",
+    info_diploma: "Diploma", info_diploma_val: "Computer Maintenance",
     info_strength: "Strength", info_strength_val: "Software & Hardware",
     info_focus: "Focus", info_focus_val: "Web, Android, Windows & AI",
     info_available: "Availability", info_available_val: "Open to new projects",
@@ -35,8 +35,6 @@ const I18N = {
     skill_android_title: "Android Apps", skill_android_desc: "Programming mobile applications for Android with smooth and intuitive experiences.",
     skill_windows_title: "Windows Apps", skill_windows_desc: "Creating desktop applications for Windows to solve tasks efficiently.",
     skill_ai_title: "Artificial Intelligence", skill_ai_desc: "Using AI across different fields and building intelligent agents that automate work.",
-    proficiency_title: "Technical proficiency",
-    bar_web: "Web Development", bar_android: "Android Development", bar_windows: "Windows Apps", bar_ai: "AI & Agents",
 
     kicker_projects: "03 / Projects",
     title_projects: 'Things I\'ve <span class="gradient-text">built</span>',
@@ -87,8 +85,6 @@ const I18N = {
     skill_android_title: "Applications Android", skill_android_desc: "Programmation d'applications mobiles Android avec des expériences fluides et intuitives.",
     skill_windows_title: "Applications Windows", skill_windows_desc: "Création d'applications de bureau Windows pour résoudre les tâches efficacement.",
     skill_ai_title: "Intelligence artificielle", skill_ai_desc: "Utilisation de l'IA dans différents domaines et création d'agents intelligents qui automatisent les tâches.",
-    proficiency_title: "Compétences techniques",
-    bar_web: "Développement web", bar_android: "Développement Android", bar_windows: "Applications Windows", bar_ai: "IA & Agents",
 
     kicker_projects: "03 / Projets",
     title_projects: 'Ce que j\'ai <span class="gradient-text">réalisé</span>',
@@ -124,10 +120,10 @@ const I18N = {
     kicker_about: "01 / Kuhusu",
     title_about: 'Kujua <span class="gradient-text">kidogo kuhusu mimi</span>',
     subtitle_about: "Napenda teknolojia, kutoka vifaa hadi programu mahiri.",
-    about_p1: "Mimi ni Ismail Ally. Nina diploma ya Informatique de Maintenance, ambayo ilinipa msingi mzuri katika programu na vifaa.",
+    about_p1: "Mimi ni Ismail Ally. Nina diploma ya Matengenezo ya Kompyuta, ambayo ilinipa msingi mzuri katika programu na vifaa.",
     about_p2: "Napenda kubadilisha mawazo kuwa bidhaa halisi — iwe tovuti, programu ya Android, programu ya Windows, au wakala mahiri unaotumia AI. Ninajifunza na kuchunguza kila wakati jinsi lugha za programu na zana za AI zinavyotatua matatizo ya kila siku.",
     text_link: "Tufanye kazi pamoja",
-    info_diploma: "Diploma", info_diploma_val: "Informatique de Maintenance",
+    info_diploma: "Diploma", info_diploma_val: "Matengenezo ya Kompyuta",
     info_strength: "Nguvu", info_strength_val: "Programu & Vifaa",
     info_focus: "Mwelekeo", info_focus_val: "Tovuti, Android, Windows & AI",
     info_available: "Upatikanaji", info_available_val: "Tayari kwa miradi mipya",
@@ -139,8 +135,6 @@ const I18N = {
     skill_android_title: "Programu za Android", skill_android_desc: "Kuandaa programu za simu za Android zenye uzoefu mzuri na rahisi.",
     skill_windows_title: "Programu za Windows", skill_windows_desc: "Kutengeneza programu za mezani za Windows kutatua kazi kwa ufanisi.",
     skill_ai_title: "Akili Bandia (AI)", skill_ai_desc: "Kutumia AI katika nyanja mbalimbali na kuunda wakala mahiri wanaofanya kazi kiotomatiki.",
-    proficiency_title: "Ujuzi wa kiufundi",
-    bar_web: "Utengenezaji wa tovuti", bar_android: "Utengenezaji wa Android", bar_windows: "Programu za Windows", bar_ai: "AI & Wakala",
 
     kicker_projects: "03 / Miradi",
     title_projects: 'Vitu nime<span class="gradient-text">vitengeneza</span>',
@@ -176,10 +170,10 @@ const I18N = {
     kicker_about: "01 / Ivyerekeye",
     title_about: 'Ivyerekeye <span class="gradient-text">je</span>',
     subtitle_about: "Nkunda ikorwa, kuva ku bikoresho gushika kuri porogaramu z'ubwenge.",
-    about_p1: "Ndi Ismail Ally. Ndi n'impapuro z'ubumenyi mu « Informatique de Maintenance », zanpa ubumenyi bukomeye mu bikoresho na porogaramu.",
+    about_p1: "Ndi Ismail Ally. Ndi n'impapuro z'ubumenyi mu Gusanasanya mudasobwa, zanpa ubumenyi bukomeye mu bikoresho na porogaramu.",
     about_p2: "Nkunda guhindura ivyiyumviro mu bikorwa vya nyabene — yaba urubuga, porogaramu ya Android, porogaramu ya Windows, canke umukozi w'ubwenge akoresha AI. Ndi n'umwete wo kwiga no gukoresha indimi za porogaramu n'ibikoresho vya AI kugira ndandure ibibazo vya misi yose.",
     text_link: "Tugire ubufatanye",
-    info_diploma: "Impapuro", info_diploma_val: "Informatique de Maintenance",
+    info_diploma: "Impapuro", info_diploma_val: "Gusanasanya mudasobwa",
     info_strength: "Ubushobozi", info_strength_val: "Porogaramu & Ibikoresho",
     info_focus: "Ivyo nkora", info_focus_val: "Urubuga, Android, Windows & AI",
     info_available: "Kwiteguriye", info_available_val: "Ndi witeguriye imishinga mishya",
@@ -191,8 +185,6 @@ const I18N = {
     skill_android_title: "Porogaramu za Android", skill_android_desc: "Kwandika porogaramu za Android zitanga ubunararibonye bwiza kandi butagoranye.",
     skill_windows_title: "Porogaramu za Windows", skill_windows_desc: "Kubaka porogaramu za Windows zo kumuzingo kugira zirangure imirimo neza.",
     skill_ai_title: "Ubwenge Buhimbanyi (AI)", skill_ai_desc: "Gukoresha AI mu nzego zitandukanye no kubaka abakozi b'ubwenge bakora ibintu vyikora.",
-    proficiency_title: "Ubumenyi bwa tekinike",
-    bar_web: "Uguhenda urubuga", bar_android: "Uguhenda Android", bar_windows: "Porogaramu za Windows", bar_ai: "AI & Abakozi",
 
     kicker_projects: "03 / Imishinga",
     title_projects: 'Ivyo nari <span class="gradient-text">nakoze</span>',
@@ -333,21 +325,6 @@ document.addEventListener("DOMContentLoaded", () => {
     el.style.transitionDelay = `${(index % 4) * 80}ms`;
     revealObserver.observe(el);
   });
-
-  /* ================= Animated skill bars ================= */
-  const barObserver = new IntersectionObserver(
-    (entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.style.width = `${entry.target.dataset.level}%`;
-          observer.unobserve(entry.target);
-        }
-      });
-    },
-    { threshold: 0.5 }
-  );
-
-  document.querySelectorAll(".bar-fill").forEach((bar) => barObserver.observe(bar));
 
   /* ================= Typing animation ================= */
   const typedText = document.getElementById("typed-text");
