@@ -35,7 +35,9 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 86px;
-  overflow-x: hidden;
+  /* `clip` prevents sideways scroll WITHOUT creating a scroll container,
+     which is required for the sticky navbar to stay visible while scrolling. */
+  overflow-x: clip;
   /* Prevent Android browsers from inflating text in landscape/portrait */
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
@@ -46,11 +48,20 @@ body {
   background: var(--bg);
   color: var(--text);
   line-height: 1.7;
-  overflow-x: hidden;
+  overflow-x: clip;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* Remove the grey tap rectangle on Android/Chrome */
   -webkit-tap-highlight-color: transparent;
+}
+
+/* Older browsers without `overflow: clip`: pull decorative overflow back inside
+   instead of using overflow:hidden (which would break the sticky navbar). */
+@supports not (overflow: clip) {
+  .bg-glow--one { left: 0; }
+  .bg-glow--two { right: 0; }
+  .float-chip--one { left: 0; }
+  .float-chip--two { right: 0; }
 }
 
 /* Long words/URLs must never cause sideways scrolling on small screens */
